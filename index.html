@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="./style.css" />
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js'></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+   
+    <title>Responsive web</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand ms-5 fw-bold"
+          >M H D - STORe</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          data-bs-display="static"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-items me-5">
+              <a class="nav-link" href="#shop">Shop</a>
+            </li>
+
+            <li class="nav-items me-5">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-items me-5">
+              <a class="nav-link" href="#news">News</a>
+            </li>
+            <li class="nav-items ">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Banner-->
+    <section class="bg-dark text-light p-5 p-lg-3 text-center text-sm">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="pt-5">
+            <h1>Redmi<span class="text-warning">Note 11S</span></h1>
+            <p class="lead my-4">
+              LiquidCool Technology - The copper pipe allows the CPU to cool
+              down fast and reduces the temperature.Redmi Note 11 comes in a
+              Starburst White colour with a glittery back throwing shades of
+              blue. Despite the glossy texture, the choice of colour helps hide
+              the fingerprint smudges.
+            </p>
+            <button class="btn btn-warning btn-lg text-light mb-2" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+              BUY NOW
+            </button>
+          </div>
+          <img
+            class="img-fluid w-25 h-25 d-none d-md-block pt-5"
+            src="./11.5.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--foam area-->
+<section class="bg-warning text-dark p-5 ">
+    <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0 ">Notify you when its in Stock</h3>
+            <div class="input-group input-new">
+                <input type="text" class="form-control" placeholder="Enter Email Address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Notify</button>
+          </div>
+        </div>
+    </div>
+    </section>
+</div>
+</scetion>
+<!--boxess-->
+<section class="p-5" id="shop">
+    <div class="container">
+        <div class="row text-center justify-content-between">
+            <div class="col-md">
+         <div class="card mb-3 mx-5" style="width: 18rem;">
+                <img src="./rn11-pro-5g-black.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Redmi Note 11Pro</h5>
+                  <p class="card-text">5G Stealth Black 8GB+256GB <span class="text-danger">₹24,999</span></p>
+                  <a href="#" class="btn btn-warning">+ Add To Cart<i class="fa-solid fa-cart-shopping"></i></a>
+                </div>
+             </div></div>
+            <div class="col-md">
+                <div class="card mb-3 mx-5" style="width: 18rem;" >
+                    <img src="./11s.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Redmi Note 11S</h5>
+                      <p class="card-text">5G Oceanic Blue 6GB+128GB <span class="text-danger">₹19,999</span></p>
+                      <a href="#" class="btn btn-warning">+ Add To Cart<i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                 </div>
+
+
+            </div>
+            <div class="col-md">
+                <div class="card mb-3 mx-5" style="width: 18rem;">
+                    <img src="./note 9.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Redmi Note 9</h5>
+                      <p class="card-text">4G Scarlet Blood 4GB+64GB <span class="text-danger">₹15,499</span></p>
+                      <a href="#" class="btn btn-warning">+ Add To Cart<i class="fa-solid fa-cart-shopping"></i></a>
+                    </div>
+                 </div>
+            </div>
+
+
+            <div class="col-md">
+                <div class="card mb-3 mx-5" style="width: 18rem;">
+                       <img src="./rn11-pro-5g-black.png" class="card-img-top" alt="...">
+                       <div class="card-body">
+                         <h5 class="card-title">Redmi Note 11Pro</h5>
+                         <p class="card-text">5G Stealth Black 8GB+256GB <span class="text-danger">₹24,999</span></p>
+                         <a href="#" class="btn btn-warning">+ Add To Cart<i class="fa-solid fa-cart-shopping"></i></a>
+                       </div>
+                    </div></div>
+                   <div class="col-md">
+                       <div class="card mb-3 mx-5" style="width: 18rem;" >
+                           <img src="./11s.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Redmi Note 11S</h5>
+                             <p class="card-text">5G Oceanic Blue 6GB+128GB <span class="text-danger">₹19,999</span></p>
+                             <a href="#" class="btn btn-warning">+ Add To Cart<i class="fa-solid fa-cart-shopping"></i></a>
+                           </div>
+                        </div>
+       
+       
+                   </div>
+                   <div class="col-md">
+                       <div class="card mb-3 mx-5" style="width: 18rem;">
+                           <img src="./note 9.png" class="card-img-top" alt="...">
+                           <div class="card-body">
+                             <h5 class="card-title">Redmi Note 9</h5>
+                             <p class="card-text">4G Scarlet Blood 4GB+64GB <span class="text-danger">₹15,499</span></p>
+                             <a href="#" class="btn btn-warning">+ Add To Cart<i class="fa-solid fa-cart-shopping"></i></a>
+                           </div>
+                        </div>
+                   </div>
+ </div> </div>
+</section>
+
+<!--Mobile camera spec-->
+
+<section class="p-5" id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <img src="./Poco-X4-Pro-5G-3-1.jpg" alt="" class="img-fluid" />
+            </div>
+            <div class="col-md p-5">
+                <h1>Super Fastcharge</h1>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus commodi porro voluptatum quidem sapiente! Exercitationem?
+                </p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque incidunt quis tempora rerum ut in, cumque laborum nihil architecto, molestias magni temporibus ducimus pariatur nulla ipsam voluptatibus? Ab, provident labore!</p>
+                <a href="#" class="btn btn-light text-warning"><i class="fa-solid fa-angle-right"></i> Read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--last-->
+
+
+<section class="p-5 bg-dark text-light" id="">
+    <div class="container">
+        <div class="row">
+           <div class="col-md p-5">
+                <h1>Why<span class="text-warning"> M H D ?</span></h1>
+                <p class="lead">
+                    Trust is a key element in the consumer journey because it is what makes the purchase a reality . If sharing common values or peer recommendations promotes customer trust, they are not the only ones.
+                </p>
+                <p>Customer culture and customer trust are intimately linked. If your employees are convinced of your Customer Relationship strategy, they will be your best spokespeople. Take the time to train them to create a true customer culture that benefits both internally and externally. In addition, Eric Dadian, President of the AFRC (French Customer Relations Association) often repeats: “Customer engagement requires collaborative engagement</p>
+                <a href="#" class="btn btn-dark text-light"><i class="fa-solid fa-angle-right"></i> Read more</a>
+            </div>
+            <div class="col-md">
+                <img src="./Ecommerece.png" alt="" class="img-fluid" />
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--questions-->
+<section class="p-5">
+    <div class="container">
+        <div class="justify-content-between text-center pb-2">
+            <h2 class="text-dark">Frequently Asked Questions</h2>
+        </div>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    When will I get the goods?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>If the goods are stated to be in stock</strong> and you are ordering them on a working day until 15:00 in the case of any courier delivery service or by 12:00 in the case of Zásilkovna and Czech Post/Slovak post/ Austria post, then you will receive the next working day within the Czech Republic. If you order in Slovakia, then you can expect to receive the shipment within two business days (order on Monday and Wednesday for a shipment at home). If you are ordering to other EU countries, the delivery time is approximately 2-4 days. More about shipping and payment here. In the case of personal picking in Prague, you can pick it up usually on the same day of the order. More about personal pickup here.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Do you have the goods in stock?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>As for mobile phones</strong> Yes, if you see the inscription ON STOCK at the e-shop, we have it ready for you to order and ship in our warehouse in the center of Prague. Rarely, the data in the e-shop disagree with reality, but only very sporadically such situation may occur.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    Where can I pick up the goods personally?
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>Yes ,</strong> Personally you can pick up at the adress Římská 24, Praha. You can find more detailed information about personal pickup here
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+
+<!--the real final-->
+<section class="bg-dark text-light p-5" id="about">
+    <div class="container">
+        <h2 class="text-center ">Our Team</h2>
+        <p class="lead text-center mb-5">A team buid by Anees MHD and Anavadh Suresh.</p>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center pb-1">
+                        <img src="./IMG_1308.jpg" alt="" class="rounded mb-3 img-fluid " />
+                        <h3 class="h3 card-title mb-3 text-dark">Anees MHD</h3>
+                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam distinctio, esse cum ea maxime!</p>
+                        <a href="#"><i class="fa-brands fa-twitter mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin mx-1 text-dark"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center pb-5">
+                        <img src="./bill-g.jpg" alt="" class="rounded mb-5 img-fluid" />
+                        <h3 class="h3 card-title mb-3 text-dark">Bill Gates</h3>
+                        <p class="card-text text-dark mb-4" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores magni totam inventore. Quaerat.</p>
+                        <a href="#"><i class="fa-brands fa-twitter mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin mx-1 text-dark"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center pb-1">
+                        <img src="./Elon_Musk_Royal_Society_(crop2).jpg" alt="" class="rounded mb-3 img-fluid h-auto w-auto" />
+                        <h3 class="h3 card-title mb-3 text-dark">Elon Musk</h3>
+                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam distinctio, esse cum ea maxime!</p>
+                        <a href="#"><i class="fa-brands fa-twitter mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin mx-1 text-dark"></i></a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center pb-3">
+                        <img src="./ty.jpg" alt="" class="rounded mb-3 img-fluid h-auto w-auto" />
+                        <h3 class="h3 card-title mb-3 text-dark">Jeff Bezos </h3>
+                        <p class="card-text text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nam distinctio, esse cum ea maxime!</p>
+                        <a href="#"><i class="fa-brands fa-twitter mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram mx-1 text-dark"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin mx-1 text-dark"></i></a>
+                    </div>
+                  </div>
+               </div>
+              </div>
+             </div>
+            </section>
+
+            <!--contact section-->
+            <section class="p-5" id="contact">
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-md">
+                    <h2 class="text-center pb-5">Contact Us</h2>
+                    <ul class="list-group list-group-flush lead">
+                      <li class="list-group-item">
+                        <span class="fw-bold">Find Us :</span>Calicut, kerala ,india
+                      </li>
+                      <li class="list-group-item">
+                        <span class="fw-bold">Phone :</span> 7025548288
+                      </li>
+                      <li class="list-group-item">
+                        <span class="fw-bold">Lan Phone :</span> 0495259565
+                      </li>
+
+                      <li class="list-group-item">
+                        <span class="fw-bold">Email :</span> anavadhsureh1042@gmail.com
+                      </li>
+                      <li class="list-group-item">
+                        <span class="fw-bold" >Alt-Email :</span>aneesmhd@gmail.com</li>
+                      </li>
+
+                    </ul>
+                  </div>
+                  <div class="col-md">
+                    <div id='map'></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!--footer-->
+
+            <footer class="p-5 bg-dark text-light position-relative text-center">
+              <div class="container">
+                <p class="lead">Copyright &copy; 2022 M H D STORe</p>
+                <a href="#" class="p-5 position-absolute bottom-0 end-0 text-warning">
+                  <i class="fa-solid fa-angles-up"></i>
+                </a>
+              </div>
+            </footer>
+
+
+
+
+            <!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Signup and Order</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="firstname" class="col-form-label">First Name:</label>
+            <input type="text" class="form-control" id="firstname">
+          </div>
+          <div class="mb-3">
+            <label for="lastname" class="col-form-label">Last Name:</label>
+            <input type="text" class="form-control" id="lastname">
+          </div>
+          <div class="mb-3">
+            <label for="Email" class="col-form-label">Email:</label>
+            <input type="email" class="form-control" id="Email">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="col-form-label">Password:</label>
+            <input type="password" class="form-control" id="password">
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="col-form-label">Phone:</label>
+            <input type="text" class="form-control" id="phone">
+          </div>
+
+        </form>
+      
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save Changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+            <script >
+              mapboxgl.accessToken = 'pk.eyJ1IjoiYW5hdmFkaCIsImEiOiJjbDNiNDdnMm4wYnNlM2Nyd242cmFtODBuIn0.Fvb5-PMa0oJ5F6aJIdLWOg';
+              var map = new mapboxgl.Map({
+              container: 'map',
+              style: 'mapbox://styles/mapbox/streets-v11',
+              center: [75.780411 , 11.258753],
+              zoom: 14
+            });
+             </script>
+             </body>
+              </html>
